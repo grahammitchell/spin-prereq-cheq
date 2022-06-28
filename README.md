@@ -9,6 +9,14 @@ This is a tiny utility that walks through the stages, collecting a list of all t
 Use it like
 
 ```
+$ ./spin-prereq-cheq.py path/to/pipeline.json
+Checking 'path/to/pipeline.json'...
+    All good!
+```
+
+You can provide multiple files at a time if you want:
+
+```
 $ ./spin-prereq-cheq.py path/to/pipeline.json  pipeline-branch.json
 Checking 'path/to/pipeline.json'...
     All good!
